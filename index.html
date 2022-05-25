@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS NO APLICADO POR FALTA DE TIEMPO -->
+</head>
+<body>
+  <form>
+    <h1>AÑADIR UN NUEVO PRODUCTO</h1>
+    <input id="code" placeholder="Codigo">
+    <input id="name" placeholder="Nombre">
+    <input id="color" placeholder="Color">
+    <input id="weight" placeholder="Peso">
+    <button id="btn_añadirProducto" onclick="handleAnadirProducto()" type="button">Añadir Producto</button>
+    <button id="btn_totalProducto" onclick="cantidadProductos()" type="button">Total De productos</button>
+  </form> 
+  <div class="render"></div>
+
+  <h1>MODIFICAR UN PRODUCTO</h1>
+    <label for="codeselect">Codigo de producto a actualizar</label>
+    <input id="codeselect">
+    <input id="codemod" placeholder="Codigo">
+    <input id="namemod" placeholder="Nombre">
+    <input id="colormod" placeholder="Color">
+    <input id="weightmod" placeholder="Peso">
+    <button id="btn_actualizarProducto" onclick="actualizarProducto()" >Actualizar</button>
+    <button id="btn_eliminarProducto" onclick="eliminarProducto()" >Eliminar</button>
+    <button id="btn_listarProductos" onclick="consultaProducto()">Listar productos</button>
+  </form> 
+
+  
+  
+
+  <script src="/prueba_tecnica.js"></script>
+</body>
+</html>
